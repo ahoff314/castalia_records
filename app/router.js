@@ -10,3 +10,15 @@ Router.map(function() {
 });
 
 export default Router;
+
+Router.map(function () {
+  this.route('about');
+  this.resource('posts', function () {
+    this.resource('post', { path: ':post_slug' });
+  });
+  this.resource('admin', function () {
+    this.route('create');
+    this.route('edit', { path: ':edit_id' });
+  });
+  this.route('not-found', { path: '/*path' });
+});
