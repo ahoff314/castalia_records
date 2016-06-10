@@ -21,4 +21,5 @@ Router.map(function () {
     this.route('edit', { path: ':edit_id' });
   });
   this.route('not-found', { path: '/*path' });
+  this.route('contact');
 });
