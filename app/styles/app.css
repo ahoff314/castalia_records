@@ -37,7 +37,7 @@ h1, h2, h3, p {
     }
     
     #footer {
-        display: flex;
+        padding-top: 30px !important;
         align-items: center !important;
         text-align: center !important;
     }
@@ -49,7 +49,7 @@ h1, h2, h3, p {
     }
     
     .fuck {
-        display: inline-block;
+        display: flex;
     }
     
     .me {
@@ -82,6 +82,7 @@ h1, h2, h3, p {
     }
     
     #footer {
+        padding-top: 30px !important;
         display: flex;
         align-items: center !important;
         text-align: center !important;
