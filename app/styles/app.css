@@ -15,16 +15,107 @@ h1, h2, h3, p {
     text-align: right;
 }
 
+.pee {
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-style:normal;
+}
+
 .spaz {
     text-align: center;
 }
+@media screen and (min-width: 0px) and (max-width: 320px) {
 
-@media screen and (max-width: 770px) and (min-width: 0px) {
+    
+    .records {
+        max-width: 100%;
+        font-size: 50px !important;
+    }
+    
+    .subz, .h1 {
+        font-size: 32px !important;
+    }
+    
+    #footer {
+        display: flex;
+        align-items: center !important;
+        text-align: center !important;
+    }
+    
+    .fck {
+        font-size: 18px !important;
+        max-width: 100%;
+        text-align: center;
+    }
+    
+    .fuck {
+        display: inline-block;
+    }
+    
+    .me {
+        -ms-transform: rotate(9deg) !important; /* IE 9 */
+        -webkit-transform: rotate(9deg) !important; /* Chrome, Safari, Opera */
+        transform: rotate(9deg) !important;
+        align-items: center !important;
+        display: inline-block;
+        text-align: center !important;
+
+    }
+    
+
+    
+    
+
+}
+
+
+@media screen and (min-width: 321px) and (max-width: 600px) {
+
+    
+    .records {
+        max-width: 100%;
+        font-size: 50px !important;
+    }
+    
+    .subz, .h1 {
+        font-size: 32px !important;
+    }
+    
+    #footer {
+        display: flex;
+        align-items: center !important;
+        text-align: center !important;
+    }
+    
+    .fck {
+        font-size: 22px !important;
+        max-width: 100%;
+        text-align: center;
+    }
+    
+    .me {
+        -ms-transform: rotate(9deg) !important; /* IE 9 */
+        -webkit-transform: rotate(9deg) !important; /* Chrome, Safari, Opera */
+        transform: rotate(9deg) !important;
+        align-items: center !important;
+        display: inline-block;
+        text-align: center !important;
+
+    }
+    
+
+    
+    
+    
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 770px) {
 
     
     .records, .social-network {
         max-width: 100%;
-        font-size: 50px
+        font-size: 60px !important;
     }
     
     .subz {
@@ -34,6 +125,9 @@ h1, h2, h3, p {
     .fck {
         font-size: 24px !important;
         max-width: 100%;
+        -ms-transform: rotate(50deg) !important; /* IE 9 */
+        -webkit-transform: rotate(50deg) !important; /* Chrome, Safari, Opera */
+        transform: rotate(50deg) !important;
     }
     
     .rawrz {
@@ -86,9 +180,13 @@ ul.social-network li {
 }
 
 .social-network a.icoEnvelope:hover {
-	background-color:#c4302b;
+	background-color:#FFFFFF;
 }
 .social-network a.icoTwitter:hover {
+	background-color:#33ccff;
+}
+
+.social-network a.icoEnvelope:hover {
 	background-color:#33ccff;
 }
 .social-network a.icoGoogle:hover {
@@ -212,10 +310,11 @@ body {
 }
 
 .records {
-    font-size:68px;
+    font-size:84px;
     font-family: Roboto, sans-serif;
     font-style:normal;
     text-align:center;
+    padding-top: 40px;
 }
 
 .fuck {
