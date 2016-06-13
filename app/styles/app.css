@@ -362,7 +362,7 @@ object,video {
 
 html { 
   background-size: cover;
-  background: url(lake.jpg) no-repeat center center fixed; 
+  background: url(lake2.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -644,7 +644,7 @@ a:focus {
 
 .container {
   background-size: cover;
-  background: url(sky.png) no-repeat center center fixed; 
+  background: url(woods.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
