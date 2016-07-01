@@ -1,6 +1,6 @@
 # Castalia-ember
 
-Welcome to Castalia Records
+Welcome to Castalia Records!
 
 ## Prerequisites
 
